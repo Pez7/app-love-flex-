@@ -92,8 +92,15 @@ a:hover {
 	align-items: center;
 	flex-direction: column;
 }
+#work.flex-container p{
+	justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 71%;
+}
 .hero{
-	width: 70%;
+	width: 90%;
+    height: auto;
 }
 footer{
   text-align: center;
