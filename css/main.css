@@ -3,11 +3,24 @@ body {
   font-size: 16px;
   line-height: 1.71429;
   background-color: #fff;
-  /* Enlaza la tipografia Open Sans */
+  font-family: 'Open Sans', sans-serif;
 }
 /*Contenedor Flexbox*/
 .flex-container{
 	display:flex;
+}
+.link{
+  font-weight: 700;
+  padding:21px;
+  display:inline-block;
+}
+a {
+  color: #373B47;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #E95853;
 }
 /*Menu*/
 .menu{
@@ -41,10 +54,43 @@ body {
 
 	justify-content: center;
 	align-items: center;
-	flex-direction: column;
+	flex-direction: column;/*para desplegarse de forma vertical*/
 
 	color:whitesmoke;
 }
+.btn-home{
+  background:#2Ecc71;
+  color:#fff;
+  padding: 11px 20px;
+  border-radius: 1px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-top: 63px;
+  display:inline-block;
+  font-size:14px;
+}
 .text-home{
 	font-size: 2.4em;
+}
+/*Services*/
+#services{
+	background-color: #F17c72;
+	text-align:center;
+	color:#fff;
+	padding:70px;
+}
+#services.flex-container{
+	justify-content: space-around;
+	flex-wrap:wrap;
+}
+.box-services{
+	font-size: 1.2em;
+	font-weight: bold;
+}
+footer{
+  text-align: center;
+  height: 54px;
+  background-color: #373b47;
+  color: white;
+  padding-top: 7px;
 }
