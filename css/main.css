@@ -88,11 +88,8 @@ a:hover {
 	align-items: center;
 	flex-direction: column;
 }
-#work.flex-container p{
-	justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    width: 71%;
+#work p{
+	text-align: center;
 }
 .hero{
 	width: 90%;
