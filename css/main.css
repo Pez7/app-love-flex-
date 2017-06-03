@@ -95,6 +95,14 @@ a:hover {
 	width: 90%;
     height: auto;
 }
+.contenedor{
+	width: 400px;
+	height: 500px;
+}
+.product{
+	width: 100%;
+	height: auto;
+}
 footer{
   text-align: center;
   height: 54px;
