@@ -95,9 +95,14 @@ a:hover {
 	width: 90%;
     height: auto;
 }
+.fotos.flex-container{
+	flex-wrap: wrap;
+	justify-content: space-around;
+	text-align: center;
+}
 .contenedor{
 	width: 400px;
-	height: 500px;
+	height: 400px;
 }
 .product{
 	width: 100%;
